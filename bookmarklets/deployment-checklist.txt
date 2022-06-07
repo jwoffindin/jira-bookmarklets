@@ -1,0 +1,17 @@
+{template: "description", name: "Deployment checklist", description: "Adds standard deployment checklist"}
+
+h2. Pre-deployment Checklist
+
+| *Task* | *Done* |
+| Reason for change is clearly documented | (x) |
+| Environment (dev, test, prod etc.) is clearly documented | (x) |
+| Changes committed, pushed and merged, changelogs updated | (x) |
+| Link to runbook is provided or steps to apply the change are documented in the JIRA description | (x) |
+| Change has been approved by environment owner | (x) |
+| Change notification announced in Slack | (x) |
+| Deployment buddy (for high-risk change) | (x) |
+
+h2. Post-deployment checklist
+
+| *Task* | *Done* |
+| Change complete notification sent | (x) |

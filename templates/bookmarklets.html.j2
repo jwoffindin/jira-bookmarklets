@@ -1,0 +1,24 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <table>
+    <thead>
+    <tr>
+      <td>Bookmarklet</td>
+      <td>Type</td>
+      <td>Description</td>
+      </tr>
+    </thead>
+    <tbody>
+      {% for bookmarklet in bookmarklets %}
+      <tr>
+        <td><a href="javascript:{{ bookmarklet.url | urlencode }}">{{ bookmarklet.name }}</a></td>
+        <td>{{ bookmarklet.template | capitalize }}</td>
+        <td>{{ bookmarklet.description }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table
+  </body>
+</html>
